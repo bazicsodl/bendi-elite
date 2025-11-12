@@ -8,9 +8,9 @@ export default function Home() {
   const [scrollY, setScrollY] = useState(0);
     const videos = [
     "/const1.mp4",
-    "/farm1.mp4",
-    "/const2.mp4",
-    "/farm2.mp4"
+    "https://res.cloudinary.com/dslxjxcmb/video/upload/v1762979715/qaxe88qopccfzb4uycfn.mp4",
+    "https://res.cloudinary.com/dslxjxcmb/video/upload/v1762979817/wha6vhpnamvrxjgiiqgt.mp4",
+    "https://res.cloudinary.com/dslxjxcmb/video/upload/v1762979694/m5ly3sktpkm9gqet5cbs.mp4"
   ];
 
   const [currentVideo, setCurrentVideo] = useState(0);
@@ -190,7 +190,7 @@ export default function Home() {
                     Industrial Excellence <span className="text-[#F1A100]">Since 2012</span>
                   </h2>
                   <p className="text-lg text-gray-600 leading-relaxed">
-                    Bendi Elite Services stands as Nigeria's premier industrial procurement partner, delivering unmatched quality and reliability across multiple sectors with over a decade of trusted service.
+                    Bendi Elite Services stands as Africa's premier industrial procurement partner, delivering unmatched quality and reliability across multiple sectors with over a decade of trusted service.
                   </p>
                 </div>
 
@@ -198,7 +198,7 @@ export default function Home() {
                 <div className="grid sm:grid-cols-2 gap-6">
                   {[
                     { title: 'Quality Assurance', desc: 'ISO-certified supply chain with rigorous quality checks' },
-                    { title: 'Timely Delivery', desc: 'Nationwide logistics network with real-time tracking' },
+                    { title: 'Timely Delivery', desc: 'Worldwide logistics network with real-time tracking' },
                     { title: 'Competitive Pricing', desc: 'Transparent quotes with volume-based discounts' },
                     { title: 'Expert Support', desc: '24/7 dedicated account management and technical support' }
                   ].map((feature, index) => (
@@ -218,7 +218,7 @@ export default function Home() {
                 <div className="grid grid-cols-2 gap-6">
                   {[
                     { title: 'Trusted Partners', color: 'from-[#0A2A43] to-[#0d3555]' },
-                    { title: 'Nationwide Reach', color: 'from-[#F1A100] to-[#ffb82b]' },
+                    { title: 'Worldwide Reach', color: 'from-[#F1A100] to-[#ffb82b]' },
                     { title: 'Quality Focus', color: 'from-[#F1A100] to-[#ffb82b]' },
                     { title: 'Client First', color: 'from-[#0A2A43] to-[#0d3555]' }
                   ].map((card, index) => (
@@ -591,11 +591,11 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-2xl font-black">BENDI ELITE</div>
-                    <div className="text-sm text-gray-400 font-medium">INDUSTRIAL SOLUTIONS</div>
+                    <div className="text-sm text-gray-400 font-medium">SERVICES</div>
                   </div>
                 </div>
                 <p className="text-gray-400 mb-6 max-w-md">
-                  Nigeria's premier industrial procurement partner, delivering excellence across agriculture, construction, and corporate sectors since 2012.
+                  Africa's premier industrial procurement partner, delivering excellence across agriculture, construction, and corporate sectors since 2012.
                 </p>
                 <div className="flex gap-4">
                   {['f', 'in', 't'].map((social, index) => (
