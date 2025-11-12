@@ -7,7 +7,7 @@ export default function Home() {
   const [messageState, setMessageState] = useState({ loading: false, submitted: false, error: null });
   const [scrollY, setScrollY] = useState(0);
     const videos = [
-    "/const1.mp4",
+    "https://cdn.pixabay.com/video/2020/06/23/42926-434300944_tiny.mp4",
     "https://res.cloudinary.com/dslxjxcmb/video/upload/v1762979715/qaxe88qopccfzb4uycfn.mp4",
     "https://res.cloudinary.com/dslxjxcmb/video/upload/v1762979817/wha6vhpnamvrxjgiiqgt.mp4",
     "https://res.cloudinary.com/dslxjxcmb/video/upload/v1762979694/m5ly3sktpkm9gqet5cbs.mp4"
